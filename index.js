@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Load service account
-const serviceAccount = require("./service-account.json");
+const serviceAccount = require("./goin-in-firebase-adminsdk-fbsvc-886b72e506.json");
 
 // ✅ Firebase Admin init
 admin.initializeApp({
